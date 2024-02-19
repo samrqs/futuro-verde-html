@@ -31,7 +31,7 @@
       <div class="nav-bar">
         <i class='bx bx-menu abrirMenu'></i>
         <span class="logo navLogo"><a href="./index.html">
-            <img src="project/img/icon.png" alt="" width="30" height="45">
+            <img src="project/img/logo.png" alt="" width="160" height="50">
           </a></span>
 
         <div class="menu">
@@ -57,50 +57,57 @@
     </nav>
   </header>
 
-  <!-- ======= banner ======= -->
+  <!-- ======= slide show ======= -->
+    <div id="slide-show" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="project/img/Slide1.jpg" class="d-block w-100" height="450px" !important alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="project/img/Slide2.jpg" class="d-block w-100" height="450px" !important alt="...">
+        </div>
 
-  <section id="banner" class="d-flex flex-column justify-content-center align-items-center" , class="nuvens">
-    <div class="logos">
-      <img src="project/img/logo.png" alt="">
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#slide-show" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#slide-show" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-
-  </section><!-- End banner -->
+  <!-- ======= end slide show ======= -->
 
   <main id="main">
-
     <!-- ======= Cards Section ======= -->
     <section id="cards" class="cards">
       <div class="container">
-        <div class="section-header">
+        <div class="section-header" style=" padding-top: 90px;">
           <h2>Serviços e soluções</h2>
         </div>
-        <div class="icon-boxes d-flex flex-column justify-content-center">
+        <div class="icon-boxes d-flex flex-column justify-content-center "  data-mdb-animation-start="onHover">
           <div class="row">
-            <div class="col-xl-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-              <div class="icon-box mt-4 mt-xl-0">
-                <img src="project/img/carregador.png" alt="">
-                <h4>Estação de cargas para veículos elétricos</h4>
-                <p>
-                  O mundo está tendendo a eletrificação, algo inevitável
-                  também para os veículos como motos, carros, ônibus e caminhões,
-                  por exemplo.
-                </p>
-                <p>
-                  Muitas empresas vêm percebendo os benefícios de se ter
-                  uma frota de veículos elétricos e energia solar, pois além da
-                  economia com combustíveis, o meio ambiente agradece.
-                  Um ponto chave de um veículos elétricos é seu carregador,
-                  tudo depende das necessidades de nossos clientes, alguns
-                  necessitam de carregamentos lentos, rápidos ou ultrarrápidos.
-                </p>
-                <p>>
-                  Em parceria com algumas empresas de mobilidade, a Futuro
-                  Verde Energia e Elétrica oferece uma solução personalizada para
-                  cada necessidade.
-                </p>
+            <div class="col-xl-4 d-flex align-items-stretch">
+              <div class="icon-box mt-6">
+                  <img src="project/img/carregador.png" width="160" height="50" alt="Estação de cargas para veículos elétricos">
+                  <div class="icon-box-content">
+                      <h4>Estação de cargas para veículos elétricos</h4>
+                      <p>
+                          O mundo está tendendo à eletrificação, algo inevitável também para os veículos como motos, carros, ônibus e caminhões, por exemplo.
+                      </p>
+                      <p>
+                          Muitas empresas vêm percebendo os benefícios de se ter uma frota de veículos elétricos e energia solar, pois além da economia com combustíveis, o meio ambiente agradece. Um ponto chave de um veículos elétricos é seu carregador, tudo depende das necessidades de nossos clientes, alguns necessitam de carregamentos lentos, rápidos ou ultrarrápidos.
+                      </p>
+                      <p>
+                          Em parceria com algumas empresas de mobilidade, a Futuro Verde Energia e Elétrica oferece uma solução personalizada para cada necessidade.
+                      </p>
+                      <a href="#" class="btn btn-primary">Saiba Mais</a>
+                  </div>
               </div>
-            </div>
-            <div class="col-xl-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+          </div>
+          
+            <div class="col-xl-4 d-flex align-items-stretch" >
               <div class="icon-box mt-4 mt-xl-0">
                 <img src="project/img/energia_solar.png" alt="">
                 <h4>Geração de energia fotovoltaica</h4>
@@ -126,7 +133,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-xl-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="col-xl-4 d-flex align-items-stretch" >
               <div class="icon-box mt-4 mt-xl-0">
                 <img src="project/img/projetos.png" alt="">
                 <h4>Projetos elétricos e homologações</h4>
@@ -150,7 +157,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-xl-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+            <div class="col-xl-4 d-flex align-items-stretch" >
               <div class="icon-box mt-4 mt-xl-0">
                 <img src="project/img/projetos-luminotecnicos.png" alt="">
                 <h4>Projeto e estudos luminotécnicos</h4>
@@ -174,7 +181,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-xl-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="500">
+            <div class="col-xl-4 d-flex align-items-stretch" >
               <div class="icon-box mt-4 mt-xl-0">
                 <img src="project/img/SPDA.png" alt="">
                 <h4>SPDA e aterramento</h4>
