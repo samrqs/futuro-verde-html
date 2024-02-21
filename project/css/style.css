@@ -18,7 +18,7 @@ a{
   --cor-primaria-hover: #a9e5a9;
   --cor-fundo: #FFF ;
   --nav-text-color: #0b471e;
-  --side-nav: #0b471e;
+  --side-nav: #ffffff;
   --text-color: #000;
   --icon-color: #52d452;
   --white-black: #fff
@@ -38,7 +38,7 @@ body.dark{
   --cor-primaria-hover: #a9e5a9;
   --cor-fundo: #242526;
   --nav-text-color: #2c5138;
-  --side-nav: #242526;
+  --side-nav: #000000;
   --text-color: #000;
   --icon-color: #52d452;
   --white-black: #000;

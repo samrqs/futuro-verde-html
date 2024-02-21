@@ -1,4 +1,3 @@
-
 $(document).ready(function() {
     checkFooterPosition();
 
@@ -9,12 +8,24 @@ $(document).ready(function() {
     function checkFooterPosition() {
         var contentHeight = $('.content').outerHeight();
         var windowHeight = $(window).height();
+        var windowWidth = $(window).width();
 
-        if (contentHeight > windowHeight) {
-            $('.footer-page').css('position', 'fixed');
-            $('.footer-page').css('bottom', '0');
+        if (windowWidth <= 500) {
+            $('.footer-page').css({
+                'position': 'fixed',
+            });
+            $('.row').css({
+                'padding-bottom': '200px', // Corrigido aqui
+            });
         } else {
-            $('.footer-page').css('position', 'relative');
+            if (contentHeight > windowHeight) {
+                $('.footer-page').css({
+                    'position': 'fixed',
+                    'bottom': '0'
+                });
+            } else {
+                $('.footer-page').css('position', 'relative');
+            }
         }
     }
 });
